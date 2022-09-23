@@ -27,11 +27,11 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Checkout tools repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
         with:
           repository: sushil46in/terraform_generator
           token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          ref: master
           path: my-tools
       
       - run: ls
