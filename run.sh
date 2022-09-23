@@ -1,4 +1,4 @@
-git clone https://github.com/sushil46in/terraform_generator.git
+git remote add origin https://sushil46in:{{ secrets.GITHUB_TOKEN }}@github.com/sushil46in/terraform_generator.git
 copy request_provider.txt terraform_generator/Input/
 git config --global user.email "sushil46.in@outlook.com"
 git config --global user.name "Sushil Saini"
