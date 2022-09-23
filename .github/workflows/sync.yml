@@ -30,6 +30,6 @@ jobs:
         uses: actions/checkout@v3
         with:
           repository: sushil46in/terraform_generator
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TF_G }}
           ref: master
           path: my-tools
