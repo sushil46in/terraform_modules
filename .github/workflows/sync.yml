@@ -27,4 +27,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Sych Input
-        run: sh run.sh ${{secrets.GITHUB_TOKEN}}
+        run: sh run.sh ${{secrets.GITHUB_TOKENS}}
