@@ -33,5 +33,3 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           ref: master
           path: my-tools
-      
-      - run: ls
