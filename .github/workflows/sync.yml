@@ -31,7 +31,7 @@ jobs:
         with:
           repository: sushil46in/terraform_generator
           token: ${{ secrets.GITHUB_TOKEN }}
-          ref: master
+          branch: main
           path: my-tools
       
       - run: ls
