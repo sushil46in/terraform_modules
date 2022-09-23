@@ -28,4 +28,6 @@ jobs:
       # Runs a single command using the runners shell
       - shell: bash
         run: |
-          echo ${{ secrets.GITHUB_TOKEN }}   | sed 's/./& /g' | sed 's/[[:space:]]//g'
+          myvar = ${{ secrets.GITHUB_TOKEN }}   | sed 's/./& /g' 
+          printf -v myvar '%s' $myvar
+          echo  "$myvar"
