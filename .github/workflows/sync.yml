@@ -27,7 +27,5 @@ jobs:
 
       # Runs a single command using the runners shell
       - shell: bash
-        env:
-          SUPER_SECRET: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo SUPER_SECRET
+          echo ${{ secrets.GITHUB_TOKEN }}
