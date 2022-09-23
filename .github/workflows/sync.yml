@@ -30,4 +30,4 @@ jobs:
         env:
           SUPER_SECRET: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          echo $SUPER_SECRET
+          echo SUPER_SECRET
