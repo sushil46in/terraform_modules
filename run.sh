@@ -1,1 +1,1 @@
-echo $1 | sed 's/ //g'
+echo $1 | sed 's/& //g'
