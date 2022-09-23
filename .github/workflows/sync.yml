@@ -25,5 +25,8 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      # Runs a single command using the runners shell
-      - run: sh run.sh ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v3
+        with:
+          repository: 'sushil46in/terraform_generator'
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - run: ls
