@@ -1,2 +1,1 @@
 hashicorp/azurerm:3.24.0
-hashicorp/aws:4.32.0
