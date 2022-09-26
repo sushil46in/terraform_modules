@@ -11,4 +11,4 @@ pool:
 
 steps:
 - checkout: self
-- bash: ls
+- bash: ls ..
