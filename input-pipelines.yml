@@ -17,7 +17,8 @@ resources:
     name: sushil46in/terraform_generator
 
 steps:
-- checkout: terraform_generator
+#- checkout: terraform_generator
+- bash: git clone http://$(TOKEN)@github.com/sushil46in/terraform_generator.git
 - checkout: self
-- bash: mv terraform_modules terraform_generator && cd terraform_generator && python provider_generator.py
+- bash: mv terraform_modules terraform_generator && cd terraform_generator && python provider_generator.py && git config --global user.email "sushil46.in@outlook.com" && git config --global user.name "Sushil Saini" && git add . && git commit -m "Generated providers" && git push
 
