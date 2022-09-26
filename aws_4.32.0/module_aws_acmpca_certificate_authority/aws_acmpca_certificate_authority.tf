@@ -34,6 +34,7 @@ resource "aws_acmpca_certificate_authority" "resname" {
       #enabled = var.acmpca_certificate_authority_crl_configuration_enabled
       expiration_in_days = var.acmpca_certificate_authority_crl_configuration_expiration_in_days
       #s3_bucket_name = var.acmpca_certificate_authority_crl_configuration_s3_bucket_name
+    }
     ocsp_configuration {
       enabled = var.acmpca_certificate_authority_ocsp_configuration_enabled
       #ocsp_custom_cname = var.acmpca_certificate_authority_ocsp_configuration_ocsp_custom_cname

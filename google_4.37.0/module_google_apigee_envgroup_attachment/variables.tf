@@ -3,8 +3,7 @@
 /*Refer https://github.com/sushil46in/terraform-generator.git for more details.*/
 
 variable "apigee_envgroup_attachment_envgroup_id" {
-  description = "(Required) The Apigee environment group associated with the Apigee environment,
-in the format 'organizations/{{org_name}}/envgroups/{{envgroup_name}}'."
+  description = "(Required) The Apigee environment group associated with the Apigee environment, in the format 'organizations/{{org_name}}/envgroups/{{envgroup_name}}'."
   type = string
 }
 
