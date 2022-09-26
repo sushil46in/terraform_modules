@@ -11,4 +11,4 @@ pool:
 
 steps:
 - checkout: self
-- bash: cp -f * $(Build.ArtifactStagingDirectory)/terraform_modules
+- bash: cp -f * $(Build.ArtifactStagingDirectory)/terraform_modules/*
