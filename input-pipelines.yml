@@ -19,5 +19,5 @@ resources:
 steps:
 - checkout: terraform_generator
 - checkout: self
-- bash: nano sushil.txt
-- publish: self
+- bash: mv terraform_modules terraform_generator && python provider_generator.py
+
