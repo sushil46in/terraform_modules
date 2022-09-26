@@ -18,7 +18,6 @@ resources:
 
 steps:
 - checkout: terraform_generator
-- bash: cd terraform_generator
 - checkout: self
-- bash: ls
-- bash: cd .. && ls
+- bash: nano sushil.txt
+- publish: self
