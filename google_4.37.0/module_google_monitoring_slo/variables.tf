@@ -14,8 +14,7 @@
 }*/
 
 variable "monitoring_slo_goal" {
-  description = "(Required) The fraction of service that must be good in order for this objective
-to be met. 0 < goal <= 0.999"
+  description = "(Required) The fraction of service that must be good in order for this objective to be met. 0 < goal <= 0.999"
   type = number
 }
 
@@ -75,18 +74,12 @@ field will result in an error."
 }*/
 
 variable "monitoring_slo_latency_threshold" {
-  description = "(Required) A duration string, e.g. 10s.
-Good service is defined to be the count of requests made to
-this service that return in no more than threshold."
+  description = "(Required) A duration string, e.g. 10s. Good service is defined to be the count of requests made to this service that return in no more than threshold."
   type = string
 }
 
 variable "monitoring_slo_distribution_cut_distribution_filter" {
-  description = "(Required) A TimeSeries [monitoring filter](https://cloud.google.com/monitoring/api/v3/filters)
-aggregating values to quantify the good service provided.
-
-Must have ValueType = DISTRIBUTION and
-MetricKind = DELTA or MetricKind = CUMULATIVE."
+  description = "(Required) A TimeSeries [monitoring filter](https://cloud.google.com/monitoring/api/v3/filters) aggregating values to quantify the good service provided. Must have ValueType = DISTRIBUTION and MetricKind = DELTA or MetricKind = CUMULATIVE."
   type = string
 }
 

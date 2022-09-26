@@ -38,6 +38,7 @@ resource "aws_macie2_classification_job" "resname" {
             }
           }
         }
+        
       includes {
         and {
           simple_scope_term {
