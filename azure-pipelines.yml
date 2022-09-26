@@ -11,4 +11,7 @@ pool:
 
 steps:
 - checkout: self
-- bash: cp -r $(Build.SourcesDirectory) $(Build.ArtifactStagingDirectory)
+- task: PublishBuildArtifacts@1
+  inputs:
+    pathToPublish: '$(Build.ArtifactStagingDirectory)'
+    artifactName: drop
