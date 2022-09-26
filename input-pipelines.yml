@@ -13,7 +13,7 @@ resources:
   repositories:
   - repository: terraform_generator # The name used to reference this repository in the checkout step
     type: github
-    endpoint: terraform_generator
+    endpoint: 'Terraform Generator'
     name: sushil46in/terraform_generator
 
 steps:
