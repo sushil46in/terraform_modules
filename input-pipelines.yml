@@ -17,6 +17,8 @@ resources:
     name: sushil46in/terraform_generator
 
 steps:
-- checkout: self
 - checkout: terraform_generator
+- bash: cd terraform_generator
+- checkout: self
 - bash: ls
+- bash: cd .. && ls
