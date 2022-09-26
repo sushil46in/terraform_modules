@@ -11,4 +11,4 @@ pool:
 
 steps:
 - checkout: self
-- bash: cp $(Build.SourcesDirectory) $(Agent.BuildDirectory)
+- bash: cp $(Build.SourcesDirectory) $(Build.ArtifactStagingDirectory)
