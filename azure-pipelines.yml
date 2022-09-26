@@ -11,7 +11,4 @@ pool:
 
 steps:
 - checkout: self
-- task: PublishBuildArtifacts@1
-  inputs:
-    pathToPublish: '$(Build.ArtifactStagingDirectory)'
-    artifactName: drop
+- bash: ls
