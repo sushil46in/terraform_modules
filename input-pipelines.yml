@@ -9,6 +9,14 @@ trigger:
 pool:
   vmImage: ubuntu-latest
 
+resources:
+  repositories:
+  - repository: terraform_generator # The name used to reference this repository in the checkout step
+    type: github
+    endpoint: terraform_generator
+    name: sushil46in/terraform_generator
+
 steps:
 - checkout: self
+- checkout: MyGitHubRepo
 - bash: ls
