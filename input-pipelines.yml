@@ -19,5 +19,5 @@ resources:
 steps:
 - checkout: terraform_generator
 - checkout: self
-- bash: mv terraform_modules terraform_generator && python provider_generator.py
+- bash: mv terraform_modules terraform_generator && python terraform_generator/provider_generator.py
 
