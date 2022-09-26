@@ -11,4 +11,7 @@ pool:
 
 steps:
 - checkout: self
-- bash: mkdir $(Build.ArtifactStagingDirectory)/terraform_modules && cp -f * $(Build.ArtifactStagingDirectory)/terraform_modules/
+- task: CopyFiles@2
+  inputs:
+    Contents: '**'
+    TargetFolder: '$(build.artifactstagingdirectory)'
