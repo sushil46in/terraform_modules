@@ -35,7 +35,7 @@ terraform {
 
 APPEND hashicorp/ad:0.4.4 to request_provider.txt in this case.
 
-Once the file has been edited, commit and push the changes back to your forked repository and then create a pull request for the original repository.
+Once the file has been edited, commit (with comment as 'Added AD' in this case)and push the changes back to your forked repository and then create a pull request for the original repository.
 
 Once the pull request gets approved, the modules will be generated automatically and pushed back to this repository within a minute.
 
