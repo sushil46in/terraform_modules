@@ -1,2 +1,8 @@
 vmware/avi:22.1.1
 hashicorp/azurestack:1.0.0
+hashicorp/aws:4.32.0
+hashicorp/azurerm:3.24.0
+hashicorp/google:4.38.0
+hashicorp/kubernetes:2.13.1
+aliyun/alicloud:1.186.0
+oracle/oci:4.94.0
