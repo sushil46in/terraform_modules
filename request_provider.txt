@@ -1,6 +1,1 @@
-hashicorp/azurerm:3.24.0
-hashicorp/aws:4.32.0
-hashicorp/google:4.37.0
-oracle/oci:4.94.0
-hashicorp/kubernetes:2.13.1
 vmware/avi:22.1.1
