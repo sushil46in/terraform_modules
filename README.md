@@ -33,10 +33,6 @@ terraform {
   }
 }
 
-provider "ad" {
-  # Configuration options
-}
-
 APPEND hashicorp/ad:0.4.4 to request_provider.txt in this case.
 
 Once the file has been edited, commit and push the changes back to your forked repository and then create a pull request for the original repository.
@@ -44,5 +40,3 @@ Once the file has been edited, commit and push the changes back to your forked r
 Once the pull request gets approved, the modules will be generated automatically and pushed back to this repository within a minute.
 
 To avoid, pull request rejection or delay, please ensure only the request_provider.txt is changed and new entry is added exactly as mentioned above.
-
-
