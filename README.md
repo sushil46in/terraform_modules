@@ -41,5 +41,5 @@ Once the pull request gets approved, the modules will be generated automatically
 
 To avoid, pull request rejection or delay, please ensure only the request_provider.txt is changed and new entry is added exactly as mentioned above.
 
-Read the blog below for more details:
+Read the blog for more details:
 https://medium.com/@sushil46.in/automate-terraform-module-generation-bf3452085aad
