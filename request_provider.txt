@@ -7,6 +7,6 @@ hashicorp/kubernetes:2.13.1
 aliyun/alicloud:1.186.0
 oracle/oci:4.94.0
 hashicorp/ad:0.4.4
-hashicorp/awscc:0.33.3
 hashicorp/azuread:2.29.0
 hashicorp/boundary:1.0.12
+hashicorp/consul:2.16.2
