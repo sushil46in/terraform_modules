@@ -12,3 +12,4 @@ hashicorp/boundary:1.0.12
 hashicorp/consul:2.16.2
 hashicorp/opc:1.4.1
 hashicorp/vsphere:2.2.0
+hashicorp/salesforce:0.1.0
