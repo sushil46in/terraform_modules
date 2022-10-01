@@ -11,4 +11,4 @@ hashicorp/azuread:2.29.0
 hashicorp/boundary:1.0.12
 hashicorp/consul:2.16.2
 hashicorp/opc:1.4.1
-hashicorp/terraform:1.0.2
+hashicorp/vsphere:2.2.0
