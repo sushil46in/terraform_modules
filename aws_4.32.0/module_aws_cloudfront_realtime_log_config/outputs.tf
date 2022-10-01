@@ -1,0 +1,28 @@
+/*This terraform file has been generated programmatically using terraform-generator.*/
+/*All the commented lines, if any, are optional. Remove comment characters, if required, before using.*/
+/*Refer https://github.com/sushil46in/terraform_modules.git for more details.*/
+
+output "cloudfront_realtime_log_config_arn" {
+  value = aws_cloudfront_realtime_log_config.resname.arn
+}
+
+output "cloudfront_realtime_log_config_fields" {
+  value = aws_cloudfront_realtime_log_config.resname.fields
+}
+
+output "cloudfront_realtime_log_config_id" {
+  value = aws_cloudfront_realtime_log_config.resname.id
+}
+
+output "cloudfront_realtime_log_config_name" {
+  value = aws_cloudfront_realtime_log_config.resname.name
+}
+
+output "cloudfront_realtime_log_config_sampling_rate" {
+  value = aws_cloudfront_realtime_log_config.resname.sampling_rate
+}
+
+output "cloudfront_realtime_log_config_endpoint" {
+  value = aws_cloudfront_realtime_log_config.resname.endpoint
+}
+
