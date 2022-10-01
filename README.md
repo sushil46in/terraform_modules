@@ -1,5 +1,5 @@
 # Terraform Modules
-This repository contains all the modules that any given terraform provider supports. You can use these modules to automate your catalogue items as required. There are two ways to use this repository:
+This repository contains all the modules/resources that any given terraform provider supports. You can use these modules to automate your catalogue items as required. There are two ways to use this repository:
 
 ## Provider Already Listed
 If your required provider and version is already listed in the repository structure, simply clone or fork the repository and you will get all the required modules within the relevant folder.
