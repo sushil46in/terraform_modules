@@ -9,10 +9,12 @@ pool:
 
 steps:
 - checkout: self
+
 - task: CopyFiles@2
   inputs:
     Contents: 'request_provider.txt'
     TargetFolder: '$(build.artifactstagingdirectory)'
+
 - task: PublishBuildArtifacts@1
   inputs:
     pathToPublish: '$(Build.ArtifactStagingDirectory)'
