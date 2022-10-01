@@ -10,4 +10,4 @@ hashicorp/ad:0.4.4
 hashicorp/azuread:2.29.0
 hashicorp/boundary:1.0.12
 hashicorp/consul:2.16.2
-hashicorp/google-beta:4.38.0
+hashicorp/opc:1.4.1
