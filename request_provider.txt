@@ -14,3 +14,4 @@ hashicorp/opc:1.4.1
 hashicorp/vsphere:2.2.0
 hashicorp/salesforce:0.1.0
 hashicorp/vault:3.9.1
+hashicorp/helm:2.7.1
