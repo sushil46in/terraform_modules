@@ -1,13 +1,13 @@
 vmware/avi:22.1.1
 hashicorp/azurestack:1.0.0
 hashicorp/aws:4.32.0
-hashicorp/azurerm:3.24.0
-hashicorp/google:4.38.0
+hashicorp/azurerm:3.53.0
+hashicorp/google:4.63.1
 hashicorp/kubernetes:2.13.1
 aliyun/alicloud:1.186.0
 oracle/oci:4.94.0
 hashicorp/ad:0.4.4
-hashicorp/azuread:2.29.0
+hashicorp/azuread:2.37.2
 hashicorp/boundary:1.0.12
 hashicorp/consul:2.16.2
 hashicorp/opc:1.4.1
@@ -15,3 +15,4 @@ hashicorp/vsphere:2.2.0
 hashicorp/salesforce:0.1.0
 hashicorp/vault:3.9.1
 f5networks/bigip:1.15.2
+integrations/github:5.23.0
