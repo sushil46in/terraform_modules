@@ -1,0 +1,28 @@
+/*This terraform file has been generated programmatically using terraform-generator.*/
+/*All the commented lines, if any, are optional. Remove comment characters, if required, before using.*/
+/*Refer https://github.com/sushil46in/terraform_modules.git for more details.*/
+
+output "actions_organization_variable_created_at" {
+  value = github_actions_organization_variable.resname.created_at
+}
+
+output "actions_organization_variable_id" {
+  value = github_actions_organization_variable.resname.id
+}
+
+output "actions_organization_variable_updated_at" {
+  value = github_actions_organization_variable.resname.updated_at
+}
+
+output "actions_organization_variable_value" {
+  value = github_actions_organization_variable.resname.value
+}
+
+output "actions_organization_variable_variable_name" {
+  value = github_actions_organization_variable.resname.variable_name
+}
+
+output "actions_organization_variable_visibility" {
+  value = github_actions_organization_variable.resname.visibility
+}
+
