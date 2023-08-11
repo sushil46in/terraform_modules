@@ -1,0 +1,48 @@
+/*This terraform file has been generated programmatically using terraform-generator.*/
+/*All the commented lines, if any, are optional. Remove comment characters, if required, before using.*/
+/*Refer https://github.com/sushil46in/terraform_modules.git for more details.*/
+
+output "palo_alto_next_generation_firewall_virtual_network_local_rulestack_id" {
+  value = azurerm_palo_alto_next_generation_firewall_virtual_network_local_rulestack.resname.id
+}
+
+output "palo_alto_next_generation_firewall_virtual_network_local_rulestack_name" {
+  value = azurerm_palo_alto_next_generation_firewall_virtual_network_local_rulestack.resname.name
+}
+
+output "palo_alto_next_generation_firewall_virtual_network_local_rulestack_resource_group_name" {
+  value = azurerm_palo_alto_next_generation_firewall_virtual_network_local_rulestack.resname.resource_group_name
+}
+
+output "palo_alto_next_generation_firewall_virtual_network_local_rulestack_rulestack_id" {
+  value = azurerm_palo_alto_next_generation_firewall_virtual_network_local_rulestack.resname.rulestack_id
+}
+
+output "palo_alto_next_generation_firewall_virtual_network_local_rulestack_destination_nat" {
+  value = azurerm_palo_alto_next_generation_firewall_virtual_network_local_rulestack.resname.destination_nat
+}
+
+output "palo_alto_next_generation_firewall_virtual_network_local_rulestack_dns_settings_azure_dns_servers" {
+  value = azurerm_palo_alto_next_generation_firewall_virtual_network_local_rulestack.resname.azure_dns_servers
+}
+
+output "palo_alto_next_generation_firewall_virtual_network_local_rulestack_dns_settings" {
+  value = azurerm_palo_alto_next_generation_firewall_virtual_network_local_rulestack.resname.dns_settings
+}
+
+output "palo_alto_next_generation_firewall_virtual_network_local_rulestack_network_profile_egress_nat_ip_addresses" {
+  value = azurerm_palo_alto_next_generation_firewall_virtual_network_local_rulestack.resname.egress_nat_ip_addresses
+}
+
+output "palo_alto_next_generation_firewall_virtual_network_local_rulestack_network_profile_public_ip_addresses" {
+  value = azurerm_palo_alto_next_generation_firewall_virtual_network_local_rulestack.resname.public_ip_addresses
+}
+
+output "palo_alto_next_generation_firewall_virtual_network_local_rulestack_network_profile" {
+  value = azurerm_palo_alto_next_generation_firewall_virtual_network_local_rulestack.resname.network_profile
+}
+
+output "palo_alto_next_generation_firewall_virtual_network_local_rulestack_vnet_configuration_ip_of_trust_for_user_defined_routes" {
+  value = azurerm_palo_alto_next_generation_firewall_virtual_network_local_rulestack.resname.ip_of_trust_for_user_defined_routes
+}
+

@@ -1,0 +1,56 @@
+/*This terraform file has been generated programmatically using terraform-generator.*/
+/*All the commented lines, if any, are optional. Remove comment characters, if required, before using.*/
+/*Refer https://github.com/sushil46in/terraform_modules.git for more details.*/
+
+output "palo_alto_next_generation_firewall_virtual_network_panorama_id" {
+  value = azurerm_palo_alto_next_generation_firewall_virtual_network_panorama.resname.id
+}
+
+output "palo_alto_next_generation_firewall_virtual_network_panorama_location" {
+  value = azurerm_palo_alto_next_generation_firewall_virtual_network_panorama.resname.location
+}
+
+output "palo_alto_next_generation_firewall_virtual_network_panorama_name" {
+  value = azurerm_palo_alto_next_generation_firewall_virtual_network_panorama.resname.name
+}
+
+output "palo_alto_next_generation_firewall_virtual_network_panorama_panorama" {
+  value = azurerm_palo_alto_next_generation_firewall_virtual_network_panorama.resname.panorama
+}
+
+output "palo_alto_next_generation_firewall_virtual_network_panorama_panorama_base64_config" {
+  value = azurerm_palo_alto_next_generation_firewall_virtual_network_panorama.resname.panorama_base64_config
+}
+
+output "palo_alto_next_generation_firewall_virtual_network_panorama_resource_group_name" {
+  value = azurerm_palo_alto_next_generation_firewall_virtual_network_panorama.resname.resource_group_name
+}
+
+output "palo_alto_next_generation_firewall_virtual_network_panorama_destination_nat" {
+  value = azurerm_palo_alto_next_generation_firewall_virtual_network_panorama.resname.destination_nat
+}
+
+output "palo_alto_next_generation_firewall_virtual_network_panorama_dns_settings_azure_dns_servers" {
+  value = azurerm_palo_alto_next_generation_firewall_virtual_network_panorama.resname.azure_dns_servers
+}
+
+output "palo_alto_next_generation_firewall_virtual_network_panorama_dns_settings" {
+  value = azurerm_palo_alto_next_generation_firewall_virtual_network_panorama.resname.dns_settings
+}
+
+output "palo_alto_next_generation_firewall_virtual_network_panorama_network_profile_egress_nat_ip_addresses" {
+  value = azurerm_palo_alto_next_generation_firewall_virtual_network_panorama.resname.egress_nat_ip_addresses
+}
+
+output "palo_alto_next_generation_firewall_virtual_network_panorama_network_profile_public_ip_addresses" {
+  value = azurerm_palo_alto_next_generation_firewall_virtual_network_panorama.resname.public_ip_addresses
+}
+
+output "palo_alto_next_generation_firewall_virtual_network_panorama_network_profile" {
+  value = azurerm_palo_alto_next_generation_firewall_virtual_network_panorama.resname.network_profile
+}
+
+output "palo_alto_next_generation_firewall_virtual_network_panorama_vnet_configuration_ip_of_trust_for_user_defined_routes" {
+  value = azurerm_palo_alto_next_generation_firewall_virtual_network_panorama.resname.ip_of_trust_for_user_defined_routes
+}
+
