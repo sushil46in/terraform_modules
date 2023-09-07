@@ -20,3 +20,4 @@ hashicorp/google:4.63.1
 hashicorp/azuread:2.37.2
 integrations/github:5.23.0
 hashicorp/azurerm:3.53.0
+hashicorp/azurerm:3.66.0
